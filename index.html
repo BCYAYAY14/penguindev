@@ -15,53 +15,55 @@
 </head>
 
 <body>
-    <div class="gradient"></div>
-    <div class="navbar">
+    <div class="gradient">
+        <div class="navbar">
+            <div class="section">
+                <div class="logo">
+                    Penguin<span>Dev</span>
+                </div>
+                <nav>
+    
+                    <ul>
+                        <li class="lists projects">About</li>
+                        <li class="lists projects">Projects</li>
+                        <li class="lists contact">Contact</li>
+                    </ul>
+    
+    
+                </nav>
+            </div>
+    
+    
+        </div>
         <div class="section">
-            <div class="logo">
-                Penguin<span>Dev</span>
-            </div>
-            <nav>
-
-                <ul>
-                    <li class="lists projects">About</li>
-                    <li class="lists projects">Projects</li>
-                    <li class="lists contact">Contact</li>
-                </ul>
-
-
-            </nav>
+            <div class="hero">
+                <h1 class="type">Hi I'm a <span>Developer</span><br>Named <span>BCYAYAY</span></h1>
+    
+           <div class="cta"><p>View Projects</div>
+                
+                   
+                </div>
+    
+    
         </div>
-
-
-    </div>
-    <div class="section">
-        <div class="hero">
-            <h1 class="type">Hi I'm a <span>Developer</span><br>Named <span>BCYAYAY</span></h1>
-
-       <div class="cta"><p>View Projects</div>
-            
-               
+        <div class="section">
+            <div class="footer">
+                <div class="socials">
+                   <a href="javascript:discordUsername()"> <img src="/images/discord.svg" alt=""></a>
+                  <a href="https://github.com/bcyayay14">  <img src="/images/github.svg" alt=""></a>
+                  <a href="https://www.reddit.com/user/bcyayay">  <img src="/images/reddit.svg" alt=""></a>
+                </div>
+                <br>
+                <p>Made by BCYAYAY</p>
+                <div class="image">
+                    <img  class="imge"src="/images/penguin.svg" alt="">
+                </div>
             </div>
-
-
-    </div>
-    <div class="section">
-        <div class="footer">
-            <div class="socials">
-                <img src="/images/discord.svg" alt="">
-                <img src="/images/github.svg" alt="">
-                <img src="/images/reddit.svg" alt="">
-            </div>
-            <br>
-            <p>Made by BCYAYAY</p>
-            <div class="image">
-                <img  class="imge"src="/images/penguin.svg" alt="">
-            </div>
+         
         </div>
-     
+    
     </div>
-
+ 
 
     <script type="text/javascript">
 
@@ -76,6 +78,33 @@
 
 
     </script>
+    <script>
+        function discordUsername() {
+            if (window.confirm("Discord Username: BCYAYAY#8528\nDiscord ID: 718770644023509043\nPressing OK will redirect you to my server" ))
+   {
+   window.open('https://discord.gg/EeXa6RSpxM');
+   };
+
+        }
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  const cta = document.querySelector(".cta")
+  let tl = new gsap.timeline({  })
+  cta.addEventListener("mouseover", function() {
+  tl.to('.cta', { background: "#ffffff", color: "#00002C", delay: 0, duration: 0.1})
+  })
+  cta.addEventListener("mouseleave", function() {
+  tl.to('.cta', { background: "#00002C", color: "#ffffff", delay: 0, duration: 0.1})
+  })
+
+
+</script>
+
+
 
     <script>
 
