@@ -83,6 +83,7 @@ body {
   display: flex;
   border-radius: 2em;
   margin: auto auto;
+  position: relative;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -174,5 +175,26 @@ body {
           justify-content: center;
   padding: 1em;
   font-size: 1.5em;
+}
+
+.contact .right .nav {
+  margin: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact .right .nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #000;
+}
+
+.contact .right .nav a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
