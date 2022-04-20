@@ -95,9 +95,17 @@ body {
 
     h1 {
         font-size: 3em;
+        color: #00002c;
+    }
+    h2 {
+        color: black;
     }
     .list {
         margin-top: 3em;
+        table {
+            margin-right: 3em;
+            margin-left: 3em;
+        }
         text-align: left;
         align-items: baseline;
         font-size: 1.3em;
@@ -110,7 +118,7 @@ body {
         justify-content: space-between;
         margin-right: 20em;
         margin-left: 20em;
-        margin-top: 2em;
+        margin-top: 0.5em;
 a {
     text-decoration: none;
     color: black;

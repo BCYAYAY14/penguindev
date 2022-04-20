@@ -89,6 +89,11 @@ body {
 
 .container h1 {
   font-size: 3em;
+  color: #00002c;
+}
+
+.container h2 {
+  color: black;
 }
 
 .container .list {
@@ -106,6 +111,11 @@ body {
           justify-content: space-between;
 }
 
+.container .list table {
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
 .container .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +125,7 @@ body {
           justify-content: space-between;
   margin-right: 20em;
   margin-left: 20em;
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 
 .container .navbar a {
